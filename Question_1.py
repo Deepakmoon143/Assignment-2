@@ -1,6 +1,6 @@
-dict = {}
+letter_to_ascii = {} 
 
-for i in range(str('a'),str('z')+1):
-    dict[chr(i)] = i
+for i in range(ord('a'), ord('z') + 1):
+    letter_to_ascii[chr(i)] = i
 
-print(dict)
+print(letter_to_ascii)

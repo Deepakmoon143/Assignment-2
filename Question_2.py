@@ -1,3 +1,6 @@
-list = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
-sort = sorted (list, key=lambda x: x[-1] )
-print (sort)
+user1 = input("enter the first alphabet from a-z")
+user2 = input("enter the last alphabet from a-z")
+text = {}
+for i in range(ord(user1), ord(user2)+1):
+    text [chr(i)] = i
+print(text)
